@@ -5,7 +5,7 @@
 ![Screenshot](https://fantasticon.s3.eu-west-2.amazonaws.com/readme/screenshot.png)
 
 <blockquote align="center">
-  Easy-to-use, pre-configured CLI tool to generate web-font icon kits from SVG files
+Fork of <a href="https://github.com/tancredi/fantasticon">fantasticon@1.2.3</a> that Easy-to-use, pre-configured CLI tool to generate web-font icon kits from SVG files
 </blockquote>
 
 <p align="center">
@@ -22,7 +22,7 @@ It also generates TypeScript types, JSON maps of the generated code-points, allo
 ### Install
 
 ```bash
-npm install -g fantasticon
+npm install -g @alioth_91/fantasticon
 ```
 
 ## Use
@@ -130,7 +130,7 @@ module.exports = {
 #### Simple usage
 
 ```js
-import { generateFonts } from 'fantasticon';
+import { generateFonts } from '@alioth_91/fantasticon';
 
 generateFonts().then(results => console.log('Done', results));
 ```
@@ -138,7 +138,7 @@ generateFonts().then(results => console.log('Done', results));
 #### Options
 
 ```js
-import { generateFonts } from 'fantasticon';
+import { generateFonts } from '@alioth_91/fantasticon';
 
 generateFonts({
   name: 'icons',

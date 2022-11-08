@@ -11,7 +11,7 @@ exports[`\`SCSS\` asset generator renders SCSS correctly with \`selector\` optio
 .my-selector:before {
     font-family: test !important;
     font-style: normal;
-    font-weight: normal !important;
+    font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
@@ -40,7 +40,7 @@ exports[`\`SCSS\` asset generator renders SCSS correctly with prefix and tag nam
 b[class^=\\"tf-\\"]:before, b[class*=\\" tf-\\"]:before {
     font-family: test !important;
     font-style: normal;
-    font-weight: normal !important;
+    font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
